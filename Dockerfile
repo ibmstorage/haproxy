@@ -1,12 +1,15 @@
 FROM registry.access.redhat.com/ubi8/ubi-minimal AS builder
 
-RUN microdnf install gcc glibc-devel && \
-lua-libs make openssl openssl-devel && \
-pcre-devel tar zlib-devel gzip redhat-rpm-config diffutils && \
-&& mkdir /usr/src/haproxy && cd /usr/src/haproxy && \
+RUN microdnf update -y
+
+RUN microdnf install gcc glibc-devel \
+    lua-libs make openssl openssl-devel \
+    pcre-devel tar zlib-devel gzip redhat-rpm-config diffutils
+
+RUN mkdir /usr/src/haproxy && \
 curl -s -o-  https://www.haproxy.org/download/2.3/src/haproxy-2.3.17.tar.gz | tar --strip-components=1 -C /usr/src/haproxy -zxf  -
 
-RUN make -j16 CPU=generic TARGET=linux-glibc USE_OPENSSL=1 USE_PCRE=1 USE_ZLIB=1 USE_CRYPT_H=1 USE_LINUX_TPROXY=1 USE_GETADDRINFO=1 USE_REGPARM=1 EXTRA_OBJS="contrib/prometheus-exporter/service-prometheus.o" 'ADDINC=-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' 'ADDLIB=-Wl,-z,relro  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld'
+RUN cd /usr/src/haproxy && make -j16 CPU=generic TARGET=linux-glibc USE_OPENSSL=1 USE_PCRE=1 USE_ZLIB=1 USE_CRYPT_H=1 USE_LINUX_TPROXY=1 USE_GETADDRINFO=1 USE_REGPARM=1 EXTRA_OBJS="contrib/prometheus-exporter/service-prometheus.o" 'ADDINC=-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' 'ADDLIB=-Wl,-z,relro  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld'
 
 FROM --copy=builder registry.access.redhat.com/ubi8/ubi-minimal
 
