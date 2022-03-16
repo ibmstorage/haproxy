@@ -1,0 +1,6 @@
+[brew-task-repo-haproxy-2.2.19-3.el8cp-scratch]
+name=Repo for Brew scratch build of haproxy-2.2.19-3.el8cp
+enabled=1
+gpgcheck=0
+baseurl=http://brew-task-repos.usersys.redhat.com/repos/scratch/jcaratza/haproxy/2.2.19/3.el8cp/$basearch/
+module_hotfixes=1
