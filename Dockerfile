@@ -7,7 +7,7 @@ RUN microdnf update -y
 RUN microdnf install -y haproxy22
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
-LABEL com.redhat.component="haproxy-container"
+LABEL com.redhat.component="rhceph-haproxy-container"
 LABEL name="haproxy"
 LABEL version=2.2.19
 LABEL description="HAProxy container"
