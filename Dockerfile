@@ -1,21 +1,15 @@
-FROM registry.access.redhat.com/ubi8/ubi-minimal AS builder
-
-RUN microdnf update -y
-
-RUN microdnf install gcc glibc-devel \
-    lua-libs make openssl openssl-devel \
-    pcre-devel tar zlib-devel gzip redhat-rpm-config diffutils
+FROM registry.redhat.io/ubi8/ubi-minimal:latest
 
 ADD scratch.repo /etc/yum/repos.d/scratch.repo
 
-RUN microdnf install -y haproxy22
+RUN microdnf update -y
 
-FROM --copy=builder registry.access.redhat.com/ubi8/ubi-minimal
+RUN microdnf install -y haproxy22
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="haproxy-container"
 LABEL name="haproxy"
-LABEL version="2.2.19"
+LABEL version=2.2.19
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
