@@ -1,7 +1,5 @@
 FROM registry.redhat.io/ubi8/ubi-minimal:latest
 
-ADD scratch.repo /etc/yum/repos.d/scratch.repo
-
 RUN microdnf update -y
 
 RUN microdnf install -y haproxy22
@@ -22,3 +20,4 @@ RUN ln -s usr/local/bin/docker-entrypoint.sh /
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 CMD ["haproxy", "-f", "/usr/local/etc/haproxy/haproxy.cfg"]
+
