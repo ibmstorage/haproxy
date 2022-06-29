@@ -1,13 +1,13 @@
-FROM registry.redhat.io/ubi8/ubi-minimal:latest
+FROM registry.redhat.io/ubi9/ubi-minimal:latest
 
 RUN microdnf update -y
 
-RUN microdnf install -y haproxy22
+RUN microdnf install -y haproxy
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
 LABEL name="haproxy"
-LABEL version=2.2.19
+LABEL version=2.4.17
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
