@@ -2,4 +2,6 @@
 ---
 
 compose:
+  packages:
+    - haproxy
   pulp_repos: true
