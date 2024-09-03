@@ -3,7 +3,7 @@ FROM registry.redhat.io/ubi9/ubi-minimal:latest
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-2.4.22
+RUN microdnf install -y qatengine haproxy && rpm -q haproxy-2.4.22
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
