@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/ubi-minimal:latest
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
 
 RUN microdnf update -y
 
@@ -6,7 +6,7 @@ RUN microdnf update -y
 RUN microdnf install -y haproxy && rpm -q haproxy-2.4.22
 
 # Only install qatengine package when building on x86_64 arch.
-RUN if [ $(uname --hardware-platform) == "x86_64" ]; then microdnf install -y qatengine; fi
+RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
