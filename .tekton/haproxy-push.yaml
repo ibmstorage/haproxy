@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: haproxy:{{revision}}
+    value: quay.io/rhceph-dev/haproxy:{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
