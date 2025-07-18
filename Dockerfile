@@ -1,17 +1,14 @@
-FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi8-minimal:latest
 
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-2.4.22
-
-# Only install qatengine package when building on x86_64 arch.
-RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
+RUN microdnf install -y haproxy22
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
 LABEL name="haproxy"
-LABEL version=2.4.22
+LABEL version=2.2.19
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
