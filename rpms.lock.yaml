@@ -4,8 +4,8 @@ lockfileVendor: redhat
 arches:
 - arch: ppc64le
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/ppc64le/rhceph-tools/5/os/Packages/h/haproxy22-2.2.19-5.el8cp.ppc64le.rpm
-    repoid: rhceph-5-tools-for-rhel-8-ppc64le-rpms
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4325595/compose/Temporary/ppc64le/os/Packages/h/haproxy22-2.2.19-5.el8cp.ppc64le.rpm
+    repoid: odcs-4325595
     size: 2009148
     checksum: sha256:7e84e53fae744742e741b572e9c9d209b2e9a9b4e58de5b51492152845890429
     name: haproxy22
@@ -1142,8 +1142,8 @@ arches:
   module_metadata: []
 - arch: s390x
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/s390x/rhceph-tools/5/os/Packages/h/haproxy22-2.2.19-5.el8cp.s390x.rpm
-    repoid: rhceph-5-tools-for-rhel-8-s390x-rpms
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4325595/compose/Temporary/s390x/os/Packages/h/haproxy22-2.2.19-5.el8cp.s390x.rpm
+    repoid: odcs-4325595
     size: 1885652
     checksum: sha256:6e2f360d4733d8e7ffa0afcc378937ecf9f42491b5b6d5e8c4864dc83c42beba
     name: haproxy22
@@ -2463,11 +2463,11 @@ arches:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/a5a9840f3e09e7e60aaf0daf326c311d0abc8c3ee950c36582b2cd9d543fec54-modules.yaml.gz
     repoid: rhel-8-for-s390x-appstream-rpms
     size: 717788
-    checksum: sha256:c32523f5cb1d0e1e92255199cb1ef8e63e0e70f7e8a2a963c95409045db52ed3
+    checksum: sha256:f56b21bc6ea2b79f640d907eb531247e6b2d4241c25284227901b9f1eb3aec7c
 - arch: x86_64
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/x86_64/rhceph-tools/5/os/Packages/h/haproxy22-2.2.19-5.el8cp.x86_64.rpm
-    repoid: rhceph-5-tools-for-rhel-8-x86_64-rpms
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4325595/compose/Temporary/x86_64/os/Packages/h/haproxy22-2.2.19-5.el8cp.x86_64.rpm
+    repoid: odcs-4325595
     size: 1907000
     checksum: sha256:83cbc9eacbb72c259678485a2658cef9ea112bc8c972e28eef99b12f85d62f2c
     name: haproxy22
