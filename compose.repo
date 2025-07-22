@@ -1,7 +1,7 @@
 # needed for haproxy22
-[odcs-4325595]
-name=ODCS repository for compose odcs-4325595
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4325595/compose/Temporary/$basearch/os
+[odcs-4328995]
+name=ODCS repository for compose odcs-4328995
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4328995/compose/Temporary/$basearch/os
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -9,9 +9,9 @@ repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
 
-[odcs-4325595-source]
-name=ODCS repository for compose odcs-4325595-source
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4325595/compose/Temporary/source/tree
+[odcs-4328995-source]
+name=ODCS repository for compose odcs-4328995-source
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4328995/compose/Temporary/source/tree
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
