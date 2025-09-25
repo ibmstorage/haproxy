@@ -188,8 +188,6 @@ spec:
         value: $(params.output-image).prefetch
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
-      - name: ACTIVATION_KEY
-        value: rkamath-activation-key
       runAfter:
       - clone-repository
       taskRef:
