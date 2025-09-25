@@ -1,5 +1,7 @@
 FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi10-minimal:latest
 
+USER root
+
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
