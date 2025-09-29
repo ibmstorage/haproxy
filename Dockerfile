@@ -1,11 +1,14 @@
 FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi10-minimal:latest
 
-RUN addgroup haproxygroup && adduser haproxyuser haproxygroup
-
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
 RUN microdnf install -y haproxy && rpm -q haproxy-3.0.5
+
+# Creating haproxy user and group
+RUN microdnf install -y shadow-utils
+RUN addgroup haproxygroup 
+RUN adduser haproxyuser haproxygroup
 
 # Only install qatengine package when building on x86_64 arch.
 RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
