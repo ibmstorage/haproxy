@@ -1,8 +1,6 @@
 FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi10-minimal:latest
 
-RUN groupadd haproxygroup && useradd haproxyuser
-
-RUN usermod -aG haproxygroup haproxyuser
+RUN addgroup haproxygroup && adduser haproxyuser haproxygroup
 
 RUN microdnf update -y
 
