@@ -1,6 +1,8 @@
 FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi10-minimal:latest
 
-USER root
+RUN groupadd haproxygroup && useradd haproxyuser
+
+RUN usermod -aG haproxygroup haproxyuser
 
 RUN microdnf update -y
 
@@ -27,5 +29,7 @@ STOPSIGNAL SIGUSR1
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh /
 ENTRYPOINT ["docker-entrypoint.sh"]
+
+USER haproxyuser
 
 CMD ["haproxy", "-f", "/usr/local/etc/haproxy/haproxy.cfg"]
