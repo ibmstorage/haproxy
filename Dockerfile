@@ -27,6 +27,9 @@ LABEL org.opencontainers.image.created="${BUILD_DATE}"
 
 STOPSIGNAL SIGUSR1
 
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh /
 ENTRYPOINT ["docker-entrypoint.sh"]
