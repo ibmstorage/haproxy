@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
+FROM --platform=$BUILDPLATFORM registry.redhat.io/ubi9-minimal:latest
 
 RUN microdnf update -y
 
