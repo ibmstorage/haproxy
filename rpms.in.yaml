@@ -5,9 +5,9 @@ context:
   bare: true
 
 arches:
-  - x86_64
   - ppc64le
   - s390x
+  - x86_64
 
 # taken from install package list in Dockerfile
 packages:
