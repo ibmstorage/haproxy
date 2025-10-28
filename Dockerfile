@@ -5,6 +5,11 @@ RUN microdnf update -y
 # If you edit this version number, edit it here *and* the LABEL below:
 RUN microdnf install -y haproxy && rpm -q haproxy-2.4.22
 
+# Creating haproxy user and group
+RUN microdnf install -y shadow-utils
+RUN groupadd haproxygroup 
+RUN useradd -g haproxygroup haproxyuser
+
 # Only install qatengine package when building on x86_64 arch.
 RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
 
@@ -19,8 +24,13 @@ LABEL io.k8s.description="HAProxy container"
 
 STOPSIGNAL SIGUSR1
 
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh /
 ENTRYPOINT ["docker-entrypoint.sh"]
+
+USER haproxyuser
 
 CMD ["haproxy", "-f", "/usr/local/etc/haproxy/haproxy.cfg"]
