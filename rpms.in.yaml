@@ -1,0 +1,17 @@
+contentOrigin:
+  repofiles:
+    - ./rpms.repo
+context:
+  bare: true
+
+arches:
+  - aarch64
+  - ppc64le
+  - s390x
+  - x86_64
+
+packages:
+  - haproxy-2.4.22
+  - name: qatengine
+    arches:
+      only: x86_64
