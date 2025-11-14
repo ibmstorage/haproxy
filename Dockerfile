@@ -21,7 +21,7 @@ LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
-LABEL io.openshift.tags="3.0.5-4"
+LABEL io.openshift.tags="2.4.22"
 LABEL cpe=cpe:/a:redhat:ceph_storage:9::el10
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 
