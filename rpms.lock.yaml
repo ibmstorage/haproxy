@@ -11,13 +11,13 @@ arches:
     name: gawk-all-langpacks
     evr: 5.3.0-6.el10
     sourcerpm: gawk-5.3.0-6.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/h/haproxy-3.0.5-4.el10.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/h/haproxy-3.0.5-4.el10_1.1.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
-    size: 2699949
-    checksum: sha256:e19b22e2a2b576ccda7a517e648593555150f5d0c09a3e1e3e41521ecbeb3f1f
+    size: 2737587
+    checksum: sha256:d134409b5c20f96ee49c3a09638c40079711db12bec86e5d11dca8032e2c880e
     name: haproxy
-    evr: 3.0.5-4.el10
-    sourcerpm: haproxy-3.0.5-4.el10.src.rpm
+    evr: 3.0.5-4.el10_1.1
+    sourcerpm: haproxy-3.0.5-4.el10_1.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/l/libxkbcommon-1.7.0-4.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
     size: 150103
@@ -789,12 +789,12 @@ arches:
     evr: 2.2.3-2.el10
     sourcerpm: zlib-ng-2.2.3-2.el10.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10_1.1.src.rpm
     repoid: rhel-10-for-aarch64-appstream-source-rpms
-    size: 4748734
-    checksum: sha256:69a5c4bab613cea7aa1c99f82016e61845f165650bf99ab3b17f80d31e6247d8
+    size: 4748219
+    checksum: sha256:a132fc11684f1818a0c2478b868f0bccbe3689867bca5155117f891cbdb14749
     name: haproxy
-    evr: 3.0.5-4.el10
+    evr: 3.0.5-4.el10_1.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/source/SRPMS/Packages/l/libxkbcommon-1.7.0-4.el10.src.rpm
     repoid: rhel-10-for-aarch64-appstream-source-rpms
     size: 562335
@@ -1309,13 +1309,13 @@ arches:
     name: gawk-all-langpacks
     evr: 5.3.0-6.el10
     sourcerpm: gawk-5.3.0-6.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/h/haproxy-3.0.5-4.el10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/h/haproxy-3.0.5-4.el10_1.1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
-    size: 2894885
-    checksum: sha256:aef1c93552c217781127ffab7808c408550642f62473a90a0963e896b8a77a45
+    size: 2933544
+    checksum: sha256:8ecf9da347b9d4ed0e0877874fc98a2f86216308ac79ed1a0bd7eedda3029482
     name: haproxy
-    evr: 3.0.5-4.el10
-    sourcerpm: haproxy-3.0.5-4.el10.src.rpm
+    evr: 3.0.5-4.el10_1.1
+    sourcerpm: haproxy-3.0.5-4.el10_1.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/l/libxkbcommon-1.7.0-4.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
     size: 163111
@@ -2087,12 +2087,12 @@ arches:
     evr: 2.2.3-2.el10
     sourcerpm: zlib-ng-2.2.3-2.el10.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10_1.1.src.rpm
     repoid: rhel-10-for-ppc64le-appstream-source-rpms
-    size: 4748734
-    checksum: sha256:69a5c4bab613cea7aa1c99f82016e61845f165650bf99ab3b17f80d31e6247d8
+    size: 4748219
+    checksum: sha256:a132fc11684f1818a0c2478b868f0bccbe3689867bca5155117f891cbdb14749
     name: haproxy
-    evr: 3.0.5-4.el10
+    evr: 3.0.5-4.el10_1.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/source/SRPMS/Packages/l/libxkbcommon-1.7.0-4.el10.src.rpm
     repoid: rhel-10-for-ppc64le-appstream-source-rpms
     size: 562335
@@ -2607,13 +2607,13 @@ arches:
     name: gawk-all-langpacks
     evr: 5.3.0-6.el10
     sourcerpm: gawk-5.3.0-6.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/h/haproxy-3.0.5-4.el10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/h/haproxy-3.0.5-4.el10_1.1.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
-    size: 2849588
-    checksum: sha256:a4af8f8018447e652cc4d92156f8475e5bdcabba21f2c195ac20a02bdfae49dd
+    size: 2889366
+    checksum: sha256:f53d2c623349045e6118d2a6fda1680b199882063a3b98c08e91a5c44e36a0ca
     name: haproxy
-    evr: 3.0.5-4.el10
-    sourcerpm: haproxy-3.0.5-4.el10.src.rpm
+    evr: 3.0.5-4.el10_1.1
+    sourcerpm: haproxy-3.0.5-4.el10_1.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/l/libxkbcommon-1.7.0-4.el10.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
     size: 157459
@@ -3385,12 +3385,12 @@ arches:
     evr: 2.2.3-2.el10
     sourcerpm: zlib-ng-2.2.3-2.el10.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10_1.1.src.rpm
     repoid: rhel-10-for-s390x-appstream-source-rpms
-    size: 4748734
-    checksum: sha256:69a5c4bab613cea7aa1c99f82016e61845f165650bf99ab3b17f80d31e6247d8
+    size: 4748219
+    checksum: sha256:a132fc11684f1818a0c2478b868f0bccbe3689867bca5155117f891cbdb14749
     name: haproxy
-    evr: 3.0.5-4.el10
+    evr: 3.0.5-4.el10_1.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/source/SRPMS/Packages/l/libxkbcommon-1.7.0-4.el10.src.rpm
     repoid: rhel-10-for-s390x-appstream-source-rpms
     size: 562335
@@ -3905,13 +3905,13 @@ arches:
     name: gawk-all-langpacks
     evr: 5.3.0-6.el10
     sourcerpm: gawk-5.3.0-6.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/h/haproxy-3.0.5-4.el10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/h/haproxy-3.0.5-4.el10_1.1.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 2704478
-    checksum: sha256:4edc13a962fe3833b0ac2f6e240ff7e6a4453124391bbb9c4e2fe7fa20f6df60
+    size: 2744446
+    checksum: sha256:ab597cc91bbd2be22853054d104ba161a4f93336b9d3369000aa830fd8c1aec8
     name: haproxy
-    evr: 3.0.5-4.el10
-    sourcerpm: haproxy-3.0.5-4.el10.src.rpm
+    evr: 3.0.5-4.el10_1.1
+    sourcerpm: haproxy-3.0.5-4.el10_1.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/l/libxkbcommon-1.7.0-4.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 151250
@@ -4732,12 +4732,12 @@ arches:
     evr: 2.2.3-2.el10
     sourcerpm: zlib-ng-2.2.3-2.el10.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/h/haproxy-3.0.5-4.el10_1.1.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
-    size: 4748734
-    checksum: sha256:69a5c4bab613cea7aa1c99f82016e61845f165650bf99ab3b17f80d31e6247d8
+    size: 4748219
+    checksum: sha256:a132fc11684f1818a0c2478b868f0bccbe3689867bca5155117f891cbdb14749
     name: haproxy
-    evr: 3.0.5-4.el10
+    evr: 3.0.5-4.el10_1.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/l/libxkbcommon-1.7.0-4.el10.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
     size: 562335
