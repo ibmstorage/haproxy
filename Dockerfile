@@ -3,11 +3,11 @@ FROM registry.access.redhat.com/ubi9-minimal:latest
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-3.0.5
+RUN microdnf install -y haproxy && rpm -q haproxy-2.8.14
 
 # Creating haproxy user and group
 RUN microdnf install -y shadow-utils
-RUN groupadd haproxygroup 
+RUN groupadd haproxygroup
 RUN useradd -g haproxygroup haproxyuser
 
 # Only install qatengine package when building on x86_64 arch.
@@ -16,13 +16,13 @@ RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
 LABEL name="haproxy"
-LABEL version=3.0.5-4
+LABEL version="2.8.14"
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
-LABEL io.openshift.tags="3.0.5-4"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9::el10
+LABEL io.openshift.tags="2.8.14"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9::el9
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 
 STOPSIGNAL SIGUSR1
