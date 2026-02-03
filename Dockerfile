@@ -15,15 +15,14 @@ RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install 
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
-LABEL name="haproxy"
+LABEL name=rhceph/rhceph-haproxy-rhel9
 LABEL version="2.8.14"
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="2.8.14"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9::el9
-LABEL org.opencontainers.image.created="${BUILD_DATE}"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.0::el9
 
 STOPSIGNAL SIGUSR1
 
