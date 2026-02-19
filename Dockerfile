@@ -22,7 +22,7 @@ LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="2.8.14"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.0::el9
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
 
 STOPSIGNAL SIGUSR1
 
