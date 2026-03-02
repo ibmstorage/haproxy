@@ -12,15 +12,14 @@ RUN useradd -g haproxygroup haproxyuser
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
-LABEL name="haproxy"
+LABEL name=rhceph/rhceph-haproxy-rhel8
 LABEL version=2.2.19
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="2.2.19"
-LABEL cpe=cpe:/a:redhat:ceph_storage:5::el8
-LABEL org.opencontainers.image.created="${BUILD_DATE}"
+LABEL cpe=cpe:/a:redhat:ceph_storage:5.3::el8
 
 STOPSIGNAL SIGUSR1
 
