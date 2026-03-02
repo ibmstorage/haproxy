@@ -2460,10 +2460,10 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/7464672efb2f1f7792948ccfbb3ae34834e2fcdfae4f6314f13b24eab41a6181-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec-modules.yaml.gz
     repoid: rhel-8-for-s390x-appstream-rpms
-    size: 763658
-    checksum: sha256:7464672efb2f1f7792948ccfbb3ae34834e2fcdfae4f6314f13b24eab41a6181
+    size: 765384
+    checksum: sha256:6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec
 - arch: x86_64
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/x86_64/rhceph-tools/5/os/Packages/h/haproxy22-2.2.19-5.el8cp.x86_64.rpm
