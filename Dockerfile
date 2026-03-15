@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi10-minimal:latest
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-2.8.14
+RUN microdnf install -y haproxy && rpm -q haproxy-3.0.5
 
 # Creating haproxy user and group
 RUN microdnf install -y shadow-utils
@@ -15,14 +15,14 @@ RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install 
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
-LABEL name=rhceph/rhceph-haproxy-rhel9
-LABEL version="2.8.14"
+LABEL name=rhceph/rhceph-haproxy-rhel10
+LABEL version="3.0.5"
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
-LABEL io.openshift.tags="2.8.14"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
+LABEL io.openshift.tags="3.0.5"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el10
 
 STOPSIGNAL SIGUSR1
 
