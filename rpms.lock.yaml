@@ -564,20 +564,20 @@ arches:
     name: mpfr
     evr: 4.2.1-5.el10
     sourcerpm: mpfr-4.2.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/n/ncurses-base-6.4-14.20240127.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/n/ncurses-base-6.4-15.20240127.el10_1.noarch.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 106442
-    checksum: sha256:24e540fa938e42ca719fd4546490d950a402c14c09c7ada465a123c4f5fc13b4
+    size: 107361
+    checksum: sha256:bfd174abe13d38f5515ef5d960d2cf57ef5c09b21a8a7ff589f6c6c6fd6d6fe6
     name: ncurses-base
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/n/ncurses-libs-6.4-14.20240127.el10.aarch64.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/n/ncurses-libs-6.4-15.20240127.el10_1.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 342171
-    checksum: sha256:25de513a40ab3a8fbb020fa5cdf23459c1ab423059854837bbb52d79c46c6224
+    size: 341502
+    checksum: sha256:8fb50a60f1d1cf382f0b3857bf15e23b767c85e93b879dc391fb55aa38fe9a47
     name: ncurses-libs
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/o/openldap-2.6.9-1.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 241346
@@ -1106,12 +1106,12 @@ arches:
     checksum: sha256:08f41db54253c25dbafdd2c8109629ee36197ea50f25424d44e42ab1e2208dc7
     name: mpfr
     evr: 4.2.1-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/n/ncurses-6.4-14.20240127.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/n/ncurses-6.4-15.20240127.el10_1.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 3754389
-    checksum: sha256:bcdb7e3f20dd71395f11564f495fce3ee29d4cfdf0de7d33c374d5899359ccb8
+    size: 3757467
+    checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
-    evr: 6.4-14.20240127.el10
+    evr: 6.4-15.20240127.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/n/nghttp2-1.64.0-2.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 1718763
@@ -1789,20 +1789,20 @@ arches:
     name: mpfr
     evr: 4.2.1-5.el10
     sourcerpm: mpfr-4.2.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/n/ncurses-base-6.4-14.20240127.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/n/ncurses-base-6.4-15.20240127.el10_1.noarch.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 106442
-    checksum: sha256:24e540fa938e42ca719fd4546490d950a402c14c09c7ada465a123c4f5fc13b4
+    size: 107361
+    checksum: sha256:bfd174abe13d38f5515ef5d960d2cf57ef5c09b21a8a7ff589f6c6c6fd6d6fe6
     name: ncurses-base
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/n/ncurses-libs-6.4-14.20240127.el10.ppc64le.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/n/ncurses-libs-6.4-15.20240127.el10_1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 393707
-    checksum: sha256:85cc67b66c4a98017185ce46cb324f7d61429af9c260a07541a604dd42806a1d
+    size: 394301
+    checksum: sha256:1542ef3f7607b0b64469be6c0ac4c6ec3982a20516501fe230c123c0540ad3a9
     name: ncurses-libs
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/o/openldap-2.6.9-1.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 270470
@@ -2331,12 +2331,12 @@ arches:
     checksum: sha256:08f41db54253c25dbafdd2c8109629ee36197ea50f25424d44e42ab1e2208dc7
     name: mpfr
     evr: 4.2.1-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/n/ncurses-6.4-14.20240127.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/n/ncurses-6.4-15.20240127.el10_1.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 3754389
-    checksum: sha256:bcdb7e3f20dd71395f11564f495fce3ee29d4cfdf0de7d33c374d5899359ccb8
+    size: 3757467
+    checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
-    evr: 6.4-14.20240127.el10
+    evr: 6.4-15.20240127.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/n/nghttp2-1.64.0-2.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 1718763
@@ -3014,20 +3014,20 @@ arches:
     name: mpfr
     evr: 4.2.1-5.el10
     sourcerpm: mpfr-4.2.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/n/ncurses-base-6.4-14.20240127.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/n/ncurses-base-6.4-15.20240127.el10_1.noarch.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 106442
-    checksum: sha256:24e540fa938e42ca719fd4546490d950a402c14c09c7ada465a123c4f5fc13b4
+    size: 107361
+    checksum: sha256:bfd174abe13d38f5515ef5d960d2cf57ef5c09b21a8a7ff589f6c6c6fd6d6fe6
     name: ncurses-base
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/n/ncurses-libs-6.4-14.20240127.el10.s390x.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/n/ncurses-libs-6.4-15.20240127.el10_1.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 381780
-    checksum: sha256:45e3bfc51ccfe7d339c6d3e879307c1b130798faa261f88a9df40338aefb125e
+    size: 381051
+    checksum: sha256:faa7533617caa233cbcf0199e12a32a598ba71fab3464dd5fa5725c51cbb501c
     name: ncurses-libs
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/o/openldap-2.6.9-1.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 249912
@@ -3556,12 +3556,12 @@ arches:
     checksum: sha256:08f41db54253c25dbafdd2c8109629ee36197ea50f25424d44e42ab1e2208dc7
     name: mpfr
     evr: 4.2.1-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/n/ncurses-6.4-14.20240127.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/n/ncurses-6.4-15.20240127.el10_1.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 3754389
-    checksum: sha256:bcdb7e3f20dd71395f11564f495fce3ee29d4cfdf0de7d33c374d5899359ccb8
+    size: 3757467
+    checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
-    evr: 6.4-14.20240127.el10
+    evr: 6.4-15.20240127.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/n/nghttp2-1.64.0-2.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 1718763
@@ -4267,20 +4267,20 @@ arches:
     name: mpfr
     evr: 4.2.1-5.el10
     sourcerpm: mpfr-4.2.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-base-6.4-14.20240127.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-base-6.4-15.20240127.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 106442
-    checksum: sha256:24e540fa938e42ca719fd4546490d950a402c14c09c7ada465a123c4f5fc13b4
+    size: 107361
+    checksum: sha256:bfd174abe13d38f5515ef5d960d2cf57ef5c09b21a8a7ff589f6c6c6fd6d6fe6
     name: ncurses-base
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-libs-6.4-14.20240127.el10.x86_64.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-libs-6.4-15.20240127.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 350616
-    checksum: sha256:30537897b9b75bf39efee7f7f1a4a36304b5aed6ac70549f42558974df653286
+    size: 352152
+    checksum: sha256:a028e489c8b94812269f950affa4cca905658e31eca16f37d32f60cc26783762
     name: ncurses-libs
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/numactl-libs-2.0.19-2.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 31884
@@ -4848,12 +4848,12 @@ arches:
     checksum: sha256:08f41db54253c25dbafdd2c8109629ee36197ea50f25424d44e42ab1e2208dc7
     name: mpfr
     evr: 4.2.1-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.4-14.20240127.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.4-15.20240127.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 3754389
-    checksum: sha256:bcdb7e3f20dd71395f11564f495fce3ee29d4cfdf0de7d33c374d5899359ccb8
+    size: 3757467
+    checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
-    evr: 6.4-14.20240127.el10
+    evr: 6.4-15.20240127.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/nghttp2-1.64.0-2.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 1718763
