@@ -11,7 +11,7 @@ RUN groupadd haproxygroup
 RUN useradd -g haproxygroup haproxyuser
 
 # Only install qatengine package when building on x86_64 arch.
-RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
+RUN if [ $(uname --hardware-platform) == "x86_64" ]; then microdnf install -y qatengine; fi
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
