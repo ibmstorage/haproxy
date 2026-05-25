@@ -11,7 +11,7 @@ RUN groupadd haproxygroup
 RUN useradd -g haproxygroup haproxyuser
 
 # Only install qatengine package when building on x86_64 arch.
-RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
+RUN if [ $(uname -m) == "x86_64" ]; then microdnf install -y qatengine; fi
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
@@ -22,7 +22,7 @@ LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
 LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="3.0.5"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el10
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.2::el10
 
 STOPSIGNAL SIGUSR1
 
