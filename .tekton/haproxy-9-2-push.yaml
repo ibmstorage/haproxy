@@ -4,17 +4,16 @@ metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/ibmstorage/haproxy?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
-    build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
-    pipelinesascode.tekton.dev/cancel-in-progress: "true"
+    pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "release-9.1"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-9.2"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: ceph-9-1
-    appstudio.openshift.io/component: haproxy-9-1
+    appstudio.openshift.io/application: ceph-9-2
+    appstudio.openshift.io/component: haproxy-9-2
     pipelines.appstudio.openshift.io/type: build
-  name: haproxy-9-1-on-pull-request
+  name: haproxy-9-2-on-push
   namespace: ceph-tenant
 spec:
   timeouts:
@@ -26,9 +25,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/haproxy:on-pr-v9.1-{{revision}}
-  - name: image-expires-after
-    value: 5d
+    value: quay.io/rhceph-ci/haproxy:v9.2-{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
@@ -123,10 +120,6 @@ spec:
       default: docker
       type: string
       description: The format for the resulting image's mediaType. Valid values are oci or docker.
-    - name: enable-cache-proxy
-      default: 'false'
-      description: Enable cache proxy configuration
-      type: string
     - name: sast-target-dirs
       type: string
       default: .
@@ -150,9 +143,6 @@ spec:
       value: $(tasks.clone-repository.results.commit)
     tasks:
     - name: init
-      params:
-      - name: enable-cache-proxy
-        value: $(params.enable-cache-proxy)
       taskRef:
         params:
         - name: name
@@ -251,10 +241,6 @@ spec:
         value: "true"
       - name: BUILDAH_FORMAT
         value: $(params.buildah-format)
-      - name: HTTP_PROXY
-        value: $(tasks.init.results.http-proxy)
-      - name: NO_PROXY
-        value: $(tasks.init.results.no-proxy)
       runAfter:
       - prefetch-dependencies
       taskRef:
@@ -575,7 +561,8 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-        - "pull-request-{{pull_request_number}}"
+        - "v9.2"
+        - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
       taskRef:
@@ -638,7 +625,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-haproxy-9-1
+    serviceAccountName: build-pipeline-haproxy-9-2
   workspaces:
   - name: git-auth
     secret:
