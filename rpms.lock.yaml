@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/h/haproxy-2.8.14-3.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 2611672
-    checksum: sha256:f0d56b674e60ced0b790464576655b29001a8fe8b8e3196ddeecff912e53cc0e
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/aarch64/os/Packages/h/haproxy-3.0.17-1.el9cp.aarch64.rpm
+    repoid: odcs-4673437
+    size: 2799593
+    checksum: sha256:160ce7c003d9dee4573f088226d0d608dbdc9cdf675a9ac2b1e3ac1d63ea0de5
     name: haproxy
-    evr: 2.8.14-3.el9
-    sourcerpm: haproxy-2.8.14-3.el9.src.rpm
+    evr: 3.0.17-1.el9cp
+    sourcerpm: haproxy-3.0.17-1.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/a/acl-2.3.1-4.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 77245
@@ -572,12 +572,6 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/h/haproxy-2.8.14-3.el9.src.rpm
-    repoid: rhel-9-for-aarch64-appstream-source-rpms
-    size: 4430827
-    checksum: sha256:002a819266097395b554e5defe8493c58c55d3b313165ffdedd4f7d21fc95325
-    name: haproxy
-    evr: 2.8.14-3.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/a/acl-2.3.1-4.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 535332
@@ -929,13 +923,13 @@ arches:
   module_metadata: []
 - arch: ppc64le
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/h/haproxy-2.8.14-3.el9.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 2802166
-    checksum: sha256:c91c572d1349094f38a507a5acdc184b8391f6a81d950d901651f01095e8d108
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/ppc64le/os/Packages/h/haproxy-3.0.17-1.el9cp.ppc64le.rpm
+    repoid: odcs-4673437
+    size: 3013929
+    checksum: sha256:2ec2ba9df1b6e1e820065c0511c36ef4cdb90b6470d71aeb3dab8b7e22f4160a
     name: haproxy
-    evr: 2.8.14-3.el9
-    sourcerpm: haproxy-2.8.14-3.el9.src.rpm
+    evr: 3.0.17-1.el9cp
+    sourcerpm: haproxy-3.0.17-1.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/a/acl-2.3.1-4.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 79564
@@ -1504,12 +1498,6 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/h/haproxy-2.8.14-3.el9.src.rpm
-    repoid: rhel-9-for-ppc64le-appstream-source-rpms
-    size: 4430827
-    checksum: sha256:002a819266097395b554e5defe8493c58c55d3b313165ffdedd4f7d21fc95325
-    name: haproxy
-    evr: 2.8.14-3.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/a/acl-2.3.1-4.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 535332
@@ -1867,13 +1855,13 @@ arches:
   module_metadata: []
 - arch: s390x
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/h/haproxy-2.8.14-3.el9.s390x.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 2573774
-    checksum: sha256:ff03cc3acab24f0491934781a421905d3ed7bf23a1669a66c99dbac8c5b68eb9
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/s390x/os/Packages/h/haproxy-3.0.17-1.el9cp.s390x.rpm
+    repoid: odcs-4673437
+    size: 2768268
+    checksum: sha256:9dc7ac7dcc63a816fbc85106a0780327178740811ecc6adcc794f91d4571f862
     name: haproxy
-    evr: 2.8.14-3.el9
-    sourcerpm: haproxy-2.8.14-3.el9.src.rpm
+    evr: 3.0.17-1.el9cp
+    sourcerpm: haproxy-3.0.17-1.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/a/acl-2.3.1-4.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 77024
@@ -2435,12 +2423,6 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/h/haproxy-2.8.14-3.el9.src.rpm
-    repoid: rhel-9-for-s390x-appstream-source-rpms
-    size: 4430827
-    checksum: sha256:002a819266097395b554e5defe8493c58c55d3b313165ffdedd4f7d21fc95325
-    name: haproxy
-    evr: 2.8.14-3.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/a/acl-2.3.1-4.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 535332
@@ -2792,13 +2774,13 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/h/haproxy-2.8.14-3.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 2615679
-    checksum: sha256:93997a14066afe41e95ab36501a32ac3d9f4f3d0dbd7a327927dfef622c7258e
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/x86_64/os/Packages/h/haproxy-3.0.17-1.el9cp.x86_64.rpm
+    repoid: odcs-4673437
+    size: 2795374
+    checksum: sha256:a62e33a6b2228b3453413369adafe0584df4b749b385e25c5a5ae282eb522fda
     name: haproxy
-    evr: 2.8.14-3.el9
-    sourcerpm: haproxy-2.8.14-3.el9.src.rpm
+    evr: 3.0.17-1.el9cp
+    sourcerpm: haproxy-3.0.17-1.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/q/qatengine-2.0.0-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 218475
@@ -3409,12 +3391,6 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/h/haproxy-2.8.14-3.el9.src.rpm
-    repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 4430827
-    checksum: sha256:002a819266097395b554e5defe8493c58c55d3b313165ffdedd4f7d21fc95325
-    name: haproxy
-    evr: 2.8.14-3.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/q/qatengine-2.0.0-1.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 912493
