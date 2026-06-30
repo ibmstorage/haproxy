@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi9-minimal:latest
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-2.8.14
+RUN microdnf install -y haproxy && rpm -q haproxy-3.0.17
 
 # Creating haproxy user and group
 RUN microdnf install -y shadow-utils
@@ -11,7 +11,7 @@ RUN groupadd haproxygroup
 RUN useradd -g haproxygroup haproxyuser
 
 # Only install qatengine package when building on x86_64 arch.
-RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install -y qatengine; fi
+RUN if [ $(uname --hardware-platform) == "x86_64" ]; then microdnf install -y qatengine; fi
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"

@@ -40,3 +40,33 @@ baseurl=https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/$basearch/coderea
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[odcs-4673437]
+name=ODCS repository for compose odcs-4673437
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/$basearch/os
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
+[odcs-4673437-debuginfo]
+name=ODCS repository for compose odcs-4673437-debuginfo
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/$basearch/debug/tree
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=0
+enabled_metadata=1
+
+[odcs-4673437-source]
+name=ODCS repository for compose odcs-4673437-source
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4673437/compose/Temporary/source/tree
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=0
+enabled_metadata=1
