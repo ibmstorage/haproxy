@@ -19,6 +19,9 @@ LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="2.8.14"
 LABEL cpe=cpe:/a:redhat:ceph_storage:8.1::el9
 
+# Z-stream indicator
+LABEL Z-VERSION="8.1z8"
+
 STOPSIGNAL SIGUSR1
 
 COPY docker-entrypoint.sh /usr/local/bin/
