@@ -438,13 +438,13 @@ arches:
     name: libmount
     evr: 2.40.2-18.el10
     sourcerpm: util-linux-2.40.2-18.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.1.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 79026
-    checksum: sha256:349153d6972432f9faf91a4de424f53c152a5e2695ad7529d04359e7e8fb1b18
+    size: 78848
+    checksum: sha256:1a19faef7142f13cf46652217a58f5371b2c9d61ac59e8ce4755d81e2f4653f4
     name: libnghttp2
-    evr: 1.68.0-3.el10_2.1
-    sourcerpm: nghttp2-1.68.0-3.el10_2.1.src.rpm
+    evr: 1.68.0-3.el10_2.2
+    sourcerpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libpsl-0.21.5-6.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 68478
@@ -1138,12 +1138,12 @@ arches:
     checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
     evr: 6.4-15.20240127.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 1742737
-    checksum: sha256:06530eca3b94ba82650a6a2ea616d7c42fa82ee895b1cf7ae04d3664993345da
+    size: 1746797
+    checksum: sha256:ad6a16153a63a85eccbbed3f11d21780bddcef374d42cfb5c61ab28fabcafbb8
     name: nghttp2
-    evr: 1.68.0-3.el10_2.1
+    evr: 1.68.0-3.el10_2.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openldap-2.6.10-1.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 6644492
@@ -1689,13 +1689,13 @@ arches:
     name: libmount
     evr: 2.40.2-18.el10
     sourcerpm: util-linux-2.40.2-18.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.1.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 87134
-    checksum: sha256:5a858dc1a5a8487adbf09bf78512493d4049981c12b78d1d62a7a428345ae01e
+    size: 87006
+    checksum: sha256:905ec04df29d6d52246a89dad83e0f6ede4e661f2598f5f2668a504827f93a44
     name: libnghttp2
-    evr: 1.68.0-3.el10_2.1
-    sourcerpm: nghttp2-1.68.0-3.el10_2.1.src.rpm
+    evr: 1.68.0-3.el10_2.2
+    sourcerpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libpsl-0.21.5-6.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 69891
@@ -2389,12 +2389,12 @@ arches:
     checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
     evr: 6.4-15.20240127.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 1742737
-    checksum: sha256:06530eca3b94ba82650a6a2ea616d7c42fa82ee895b1cf7ae04d3664993345da
+    size: 1746797
+    checksum: sha256:ad6a16153a63a85eccbbed3f11d21780bddcef374d42cfb5c61ab28fabcafbb8
     name: nghttp2
-    evr: 1.68.0-3.el10_2.1
+    evr: 1.68.0-3.el10_2.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openldap-2.6.10-1.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 6644492
@@ -2940,13 +2940,13 @@ arches:
     name: libmount
     evr: 2.40.2-18.el10
     sourcerpm: util-linux-2.40.2-18.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.1.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 83698
-    checksum: sha256:fd3858efe1ec225e907229203c83fa6b041632322c49d5e16a38cddee190d035
+    size: 83506
+    checksum: sha256:34acad7d22eaf1a10a5552f8d1451183e55b1397a40cb0a0e72ed5d0e1a65cc9
     name: libnghttp2
-    evr: 1.68.0-3.el10_2.1
-    sourcerpm: nghttp2-1.68.0-3.el10_2.1.src.rpm
+    evr: 1.68.0-3.el10_2.2
+    sourcerpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libpsl-0.21.5-6.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 68643
@@ -3640,12 +3640,12 @@ arches:
     checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
     evr: 6.4-15.20240127.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 1742737
-    checksum: sha256:06530eca3b94ba82650a6a2ea616d7c42fa82ee895b1cf7ae04d3664993345da
+    size: 1746797
+    checksum: sha256:ad6a16153a63a85eccbbed3f11d21780bddcef374d42cfb5c61ab28fabcafbb8
     name: nghttp2
-    evr: 1.68.0-3.el10_2.1
+    evr: 1.68.0-3.el10_2.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openldap-2.6.10-1.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 6644492
@@ -4219,13 +4219,13 @@ arches:
     name: libmount
     evr: 2.40.2-18.el10
     sourcerpm: util-linux-2.40.2-18.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libnghttp2-1.68.0-3.el10_2.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 81062
-    checksum: sha256:4c965bd8d371c6f86429f9cf3ecdf16e2f47d45789d552ad39817fbf15059d48
+    size: 80861
+    checksum: sha256:3b2a80a595800a4086dc212b06e13aa54ca6552f157186582d8b255041812336
     name: libnghttp2
-    evr: 1.68.0-3.el10_2.1
-    sourcerpm: nghttp2-1.68.0-3.el10_2.1.src.rpm
+    evr: 1.68.0-3.el10_2.2
+    sourcerpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libpsl-0.21.5-6.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 68382
@@ -4958,12 +4958,12 @@ arches:
     checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
     evr: 6.4-15.20240127.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/nghttp2-1.68.0-3.el10_2.2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 1742737
-    checksum: sha256:06530eca3b94ba82650a6a2ea616d7c42fa82ee895b1cf7ae04d3664993345da
+    size: 1746797
+    checksum: sha256:ad6a16153a63a85eccbbed3f11d21780bddcef374d42cfb5c61ab28fabcafbb8
     name: nghttp2
-    evr: 1.68.0-3.el10_2.1
+    evr: 1.68.0-3.el10_2.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/numactl-2.0.19-3.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 252993
