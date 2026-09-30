@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10_2.1.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
-    size: 286079
-    checksum: sha256:4dde8372cf58b79e450999a80f6ab43e02717ba62de043e44fe24ba59d335e5a
+    size: 287679
+    checksum: sha256:1ddd2ace341bbe1c7028ff48099162599f0027d3fc5aafac31ebab557e1f27da
     name: gawk-all-langpacks
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/h/haproxy-3.0.5-6.el10_2.2.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
     size: 2745310
@@ -214,13 +214,13 @@ arches:
     name: findutils
     evr: 1:4.10.0-5.el10
     sourcerpm: findutils-4.10.0-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gawk-5.3.0-6.el10.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gawk-5.3.0-6.el10_2.1.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 1120487
-    checksum: sha256:719b69b92f0bef1d509097f4468d04fc5aa033d405df190670d64a05d43d6c18
+    size: 1120671
+    checksum: sha256:5935721d2cbf02dae645c8a641aa75255c0bbdc1639a377b0ec5f86765613c92
     name: gawk
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gdbm-libs-1.23-12.el10_0.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 61230
@@ -910,12 +910,12 @@ arches:
     checksum: sha256:eeb38bf66c9c3a560699c3b55a7f9737034189b81092d382c4b86b46809cde11
     name: findutils
     evr: 1:4.10.0-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10_2.1.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 3508473
-    checksum: sha256:64ee89ddb2ccdb1f8ca2b6c960d4939af1d94909bc3914e027bf854fae60b094
+    size: 3516954
+    checksum: sha256:c3de2c09bb4b89cc9041a687f2c59383c851038f73aa1ae0456620add5c6a14d
     name: gawk
-    evr: 5.3.0-6.el10
+    evr: 5.3.0-6.el10_2.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gcc-14.3.1-4.4.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 93249736
@@ -1255,13 +1255,13 @@ arches:
   module_metadata: []
 - arch: ppc64le
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10_2.1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
-    size: 286075
-    checksum: sha256:d3b785128433352a142306f4e8ff07054e719f8017e5f3b3ab170c52d0b684e3
+    size: 287683
+    checksum: sha256:2a8eb793dba64527f0e3e7d538c061b22f9e54df997c9297efa7681bf38318d1
     name: gawk-all-langpacks
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/h/haproxy-3.0.5-6.el10_2.2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
     size: 2940628
@@ -1465,13 +1465,13 @@ arches:
     name: findutils
     evr: 1:4.10.0-5.el10
     sourcerpm: findutils-4.10.0-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gawk-5.3.0-6.el10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gawk-5.3.0-6.el10_2.1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 1152019
-    checksum: sha256:efa89acffca49ec8adb6e815d888373fb062745ab650a7ee03783ede1847ef94
+    size: 1151586
+    checksum: sha256:53089e79981222f1a81b8399af366ecc741afcccea1546500fa3700634edff3d
     name: gawk
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gdbm-libs-1.23-12.el10_0.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 66610
@@ -2161,12 +2161,12 @@ arches:
     checksum: sha256:eeb38bf66c9c3a560699c3b55a7f9737034189b81092d382c4b86b46809cde11
     name: findutils
     evr: 1:4.10.0-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10_2.1.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 3508473
-    checksum: sha256:64ee89ddb2ccdb1f8ca2b6c960d4939af1d94909bc3914e027bf854fae60b094
+    size: 3516954
+    checksum: sha256:c3de2c09bb4b89cc9041a687f2c59383c851038f73aa1ae0456620add5c6a14d
     name: gawk
-    evr: 5.3.0-6.el10
+    evr: 5.3.0-6.el10_2.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gcc-14.3.1-4.4.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 93249736
@@ -2506,13 +2506,13 @@ arches:
   module_metadata: []
 - arch: s390x
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10_2.1.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
-    size: 286059
-    checksum: sha256:72039dcd6d14b034c2e143646f3a0307a8f1d895c72181b7aa779d5636bd5e98
+    size: 287675
+    checksum: sha256:96ef6a4cae6b548bb39f27209c5808fc8099df2f1a553a1e9b06c2037a96a7ff
     name: gawk-all-langpacks
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/h/haproxy-3.0.5-6.el10_2.2.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
     size: 2896946
@@ -2716,13 +2716,13 @@ arches:
     name: findutils
     evr: 1:4.10.0-5.el10
     sourcerpm: findutils-4.10.0-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gawk-5.3.0-6.el10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gawk-5.3.0-6.el10_2.1.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 1169980
-    checksum: sha256:158f67bd6e8959f5f00a44084bd1e9306e0b78c0b228ee538751e7533f588f09
+    size: 1170042
+    checksum: sha256:66cc61e86e8d33d6116e0c5db7809933fd698a658eb53387d4318bbaa84542fd
     name: gawk
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gdbm-libs-1.23-12.el10_0.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 62973
@@ -3412,12 +3412,12 @@ arches:
     checksum: sha256:eeb38bf66c9c3a560699c3b55a7f9737034189b81092d382c4b86b46809cde11
     name: findutils
     evr: 1:4.10.0-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10_2.1.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 3508473
-    checksum: sha256:64ee89ddb2ccdb1f8ca2b6c960d4939af1d94909bc3914e027bf854fae60b094
+    size: 3516954
+    checksum: sha256:c3de2c09bb4b89cc9041a687f2c59383c851038f73aa1ae0456620add5c6a14d
     name: gawk
-    evr: 5.3.0-6.el10
+    evr: 5.3.0-6.el10_2.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gcc-14.3.1-4.4.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 93249736
@@ -3757,13 +3757,13 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/g/gawk-all-langpacks-5.3.0-6.el10_2.1.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 286107
-    checksum: sha256:364c420e57efbe30fdda38b843f4689a8619983071be7034ba9b6582b8a9cc2f
+    size: 287723
+    checksum: sha256:d6716be2146e00238aa140e8e29ae966511c7c220781b021a60ab595c660e5b3
     name: gawk-all-langpacks
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/h/haproxy-3.0.5-6.el10_2.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 2751346
@@ -3988,13 +3988,13 @@ arches:
     name: findutils
     evr: 1:4.10.0-5.el10
     sourcerpm: findutils-4.10.0-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gawk-5.3.0-6.el10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gawk-5.3.0-6.el10_2.1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1135797
-    checksum: sha256:54b07fa2eb9f4aa3de97661b66e86ed65a1d46fc2f1eb80d42cd2d901c0026f7
+    size: 1137365
+    checksum: sha256:15882a466a8ea7160191e644d182e1f9914d441ca9a4590b23c4d4362ad746a2
     name: gawk
-    evr: 5.3.0-6.el10
-    sourcerpm: gawk-5.3.0-6.el10.src.rpm
+    evr: 5.3.0-6.el10_2.1
+    sourcerpm: gawk-5.3.0-6.el10_2.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gdbm-libs-1.23-12.el10_0.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 61329
@@ -4724,12 +4724,12 @@ arches:
     checksum: sha256:eeb38bf66c9c3a560699c3b55a7f9737034189b81092d382c4b86b46809cde11
     name: findutils
     evr: 1:4.10.0-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gawk-5.3.0-6.el10_2.1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 3508473
-    checksum: sha256:64ee89ddb2ccdb1f8ca2b6c960d4939af1d94909bc3914e027bf854fae60b094
+    size: 3516954
+    checksum: sha256:c3de2c09bb4b89cc9041a687f2c59383c851038f73aa1ae0456620add5c6a14d
     name: gawk
-    evr: 5.3.0-6.el10
+    evr: 5.3.0-6.el10_2.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gcc-14.3.1-4.4.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 93249736
