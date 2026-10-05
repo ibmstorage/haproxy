@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/ubi10-minimal:latest
 
 RUN microdnf update -y
 
-# If you edit this version number, edit it here *and* the LABEL below:
+# If you edit this version number, edit it here *and* the LABEL below:j
 RUN microdnf install -y haproxy && rpm -q haproxy-3.0.5
 
 # Creating haproxy user and group
