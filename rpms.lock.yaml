@@ -340,13 +340,13 @@ arches:
     name: libbpf
     evr: 2:1.7.0-1.el10
     sourcerpm: libbpf-1.7.0-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libbrotli-1.1.0-7.el10_1.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 352465
-    checksum: sha256:652770c1f5a3a3d438da8dabe21809c534791a0a1e63ba5aadc3a9efd2b6022c
+    size: 359263
+    checksum: sha256:5981e0ef6632c1682f21f5683cb702572332a42094474a2beddc02c18e08696e
     name: libbrotli
-    evr: 1.1.0-7.el10_1
-    sourcerpm: brotli-1.1.0-7.el10_1.src.rpm
+    evr: 1.1.0-8.el10_2
+    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/l/libcap-2.69-7.el10_2.1.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 98222
@@ -613,13 +613,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-11.el10_2
     sourcerpm: openssl-fips-provider-3.0.7-11.el10_2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/o/openssl-libs-3.5.8-1.el10_2.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/o/openssl-libs-3.5.8-2.el10_2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 2236883
-    checksum: sha256:0a54176e12e019ecff62f41f28e2dbc5cbd31f7577f3b4ec86967b82a667f23b
+    size: 2237447
+    checksum: sha256:dbc69db124d7fcc86d6e83a8a7540545a90f75518d88f3cb7060d8ca5a9e3a89
     name: openssl-libs
-    evr: 1:3.5.8-1.el10_2
-    sourcerpm: openssl-3.5.8-1.el10_2.src.rpm
+    evr: 1:3.5.8-2.el10_2
+    sourcerpm: openssl-3.5.8-2.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/p/p11-kit-0.26.4-1.el10_2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 558884
@@ -802,12 +802,12 @@ arches:
     checksum: sha256:247764e4d0f04040de5289564ae606e294ff0a97e09c837fdc8658c42776c0a8
     name: bash
     evr: 5.2.26-6.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-7.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 541502
-    checksum: sha256:3c06552ab1d70705a78107ccc980ce9043793c4bb0fd945962e023f1c6e41141
+    size: 549818
+    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
     name: brotli
-    evr: 1.1.0-7.el10_1
+    evr: 1.1.0-8.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/b/bzip2-1.0.8-25.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 853873
@@ -1150,12 +1150,12 @@ arches:
     checksum: sha256:14808cf2224c23002ecb0d3df48a474916d37230ba9b14dcc9d20f434eb351a9
     name: openldap
     evr: 2.6.10-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.8-1.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.8-2.el10_2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 53473629
-    checksum: sha256:923f7531487cc871d6da95405a9da9e783dcff2640dd8e40817ae14ef7bc722e
+    size: 53479113
+    checksum: sha256:5e45c3d946827a032ca733f792fb643ff883983e628c10e0204adfca989ec92b
     name: openssl
-    evr: 1:3.5.8-1.el10_2
+    evr: 1:3.5.8-2.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-11.el10_2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 28691851
@@ -1591,13 +1591,13 @@ arches:
     name: libbpf
     evr: 2:1.7.0-1.el10
     sourcerpm: libbpf-1.7.0-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libbrotli-1.1.0-7.el10_1.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 392608
-    checksum: sha256:06f8a158a4d6520e6ef51deb0768dad65885a56a9392381145805d4eaa156b66
+    size: 399377
+    checksum: sha256:d3d7adc64dd8176352d920c2afb6067496eb33a194af86373ac6991b2c07e9ab
     name: libbrotli
-    evr: 1.1.0-7.el10_1
-    sourcerpm: brotli-1.1.0-7.el10_1.src.rpm
+    evr: 1.1.0-8.el10_2
+    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/l/libcap-2.69-7.el10_2.1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 103857
@@ -1864,13 +1864,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-11.el10_2
     sourcerpm: openssl-fips-provider-3.0.7-11.el10_2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.8-1.el10_2.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.8-2.el10_2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 2502172
-    checksum: sha256:5deac7ffcbd68815b2fd01a8f3a0fa97dbc1e5a23affd1279d3be4ad11159d37
+    size: 2502558
+    checksum: sha256:1406454838d198baa329f5b73a4c06fccab65cf84d3878bce2a68f48d4c8056f
     name: openssl-libs
-    evr: 1:3.5.8-1.el10_2
-    sourcerpm: openssl-3.5.8-1.el10_2.src.rpm
+    evr: 1:3.5.8-2.el10_2
+    sourcerpm: openssl-3.5.8-2.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/p/p11-kit-0.26.4-1.el10_2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 579246
@@ -2053,12 +2053,12 @@ arches:
     checksum: sha256:247764e4d0f04040de5289564ae606e294ff0a97e09c837fdc8658c42776c0a8
     name: bash
     evr: 5.2.26-6.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/b/brotli-1.1.0-7.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 541502
-    checksum: sha256:3c06552ab1d70705a78107ccc980ce9043793c4bb0fd945962e023f1c6e41141
+    size: 549818
+    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
     name: brotli
-    evr: 1.1.0-7.el10_1
+    evr: 1.1.0-8.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/b/bzip2-1.0.8-25.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 853873
@@ -2401,12 +2401,12 @@ arches:
     checksum: sha256:14808cf2224c23002ecb0d3df48a474916d37230ba9b14dcc9d20f434eb351a9
     name: openldap
     evr: 2.6.10-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.8-1.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.8-2.el10_2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 53473629
-    checksum: sha256:923f7531487cc871d6da95405a9da9e783dcff2640dd8e40817ae14ef7bc722e
+    size: 53479113
+    checksum: sha256:5e45c3d946827a032ca733f792fb643ff883983e628c10e0204adfca989ec92b
     name: openssl
-    evr: 1:3.5.8-1.el10_2
+    evr: 1:3.5.8-2.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-11.el10_2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 28691851
@@ -2842,13 +2842,13 @@ arches:
     name: libbpf
     evr: 2:1.7.0-1.el10
     sourcerpm: libbpf-1.7.0-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libbrotli-1.1.0-7.el10_1.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 391653
-    checksum: sha256:ecd5f06f949f6d99b7c0f1b5ecb46d4342b8db0e7b70a400c90bb909e3a00c0d
+    size: 398558
+    checksum: sha256:c291cea825bdf0a47afd4d288874325a2f4ffbd8d3508c7986224a384a152a72
     name: libbrotli
-    evr: 1.1.0-7.el10_1
-    sourcerpm: brotli-1.1.0-7.el10_1.src.rpm
+    evr: 1.1.0-8.el10_2
+    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/l/libcap-2.69-7.el10_2.1.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 100534
@@ -3115,13 +3115,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-11.el10_2
     sourcerpm: openssl-fips-provider-3.0.7-11.el10_2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/o/openssl-libs-3.5.8-1.el10_2.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/o/openssl-libs-3.5.8-2.el10_2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 2149081
-    checksum: sha256:bdcac09c976852581418d85d0b763e1ad77ab3a08a76eb50deecf3737049c9a1
+    size: 2148752
+    checksum: sha256:8e48b7df3d6e8360cb2e8b5a5dc6b0508af4110b16d57d00739f1b7550fdda69
     name: openssl-libs
-    evr: 1:3.5.8-1.el10_2
-    sourcerpm: openssl-3.5.8-1.el10_2.src.rpm
+    evr: 1:3.5.8-2.el10_2
+    sourcerpm: openssl-3.5.8-2.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/p/p11-kit-0.26.4-1.el10_2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 627933
@@ -3304,12 +3304,12 @@ arches:
     checksum: sha256:247764e4d0f04040de5289564ae606e294ff0a97e09c837fdc8658c42776c0a8
     name: bash
     evr: 5.2.26-6.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/b/brotli-1.1.0-7.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 541502
-    checksum: sha256:3c06552ab1d70705a78107ccc980ce9043793c4bb0fd945962e023f1c6e41141
+    size: 549818
+    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
     name: brotli
-    evr: 1.1.0-7.el10_1
+    evr: 1.1.0-8.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/b/bzip2-1.0.8-25.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 853873
@@ -3652,12 +3652,12 @@ arches:
     checksum: sha256:14808cf2224c23002ecb0d3df48a474916d37230ba9b14dcc9d20f434eb351a9
     name: openldap
     evr: 2.6.10-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.8-1.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.8-2.el10_2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 53473629
-    checksum: sha256:923f7531487cc871d6da95405a9da9e783dcff2640dd8e40817ae14ef7bc722e
+    size: 53479113
+    checksum: sha256:5e45c3d946827a032ca733f792fb643ff883983e628c10e0204adfca989ec92b
     name: openssl
-    evr: 1:3.5.8-1.el10_2
+    evr: 1:3.5.8-2.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-11.el10_2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 28691851
@@ -4121,13 +4121,13 @@ arches:
     name: libbpf
     evr: 2:1.7.0-1.el10
     sourcerpm: libbpf-1.7.0-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libbrotli-1.1.0-7.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 352691
-    checksum: sha256:894800ee7893f8e4aa1d3870afb22b54d92624134bc7cf5d2cdc1a1db92366db
+    size: 359544
+    checksum: sha256:d5aff7d0b4534179a4ecf6b2152d75630dc0682e28ca3a6beeff4fe34e6126fa
     name: libbrotli
-    evr: 1.1.0-7.el10_1
-    sourcerpm: brotli-1.1.0-7.el10_1.src.rpm
+    evr: 1.1.0-8.el10_2
+    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libcap-2.69-7.el10_2.1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 98662
@@ -4401,13 +4401,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-11.el10_2
     sourcerpm: openssl-fips-provider-3.0.7-11.el10_2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.8-1.el10_2.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.8-2.el10_2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 2374781
-    checksum: sha256:f7a77a5c5897d4bf6e3abcf536c6d92bb60cf698db4e2334908dabdbac54486a
+    size: 2375173
+    checksum: sha256:988479c9ac55bdb48027523ffb4b3833befca3d62395bb479a10c5f00f6423a7
     name: openssl-libs
-    evr: 1:3.5.8-1.el10_2
-    sourcerpm: openssl-3.5.8-1.el10_2.src.rpm
+    evr: 1:3.5.8-2.el10_2
+    sourcerpm: openssl-3.5.8-2.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/p11-kit-0.26.4-1.el10_2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 583951
@@ -4616,12 +4616,12 @@ arches:
     checksum: sha256:247764e4d0f04040de5289564ae606e294ff0a97e09c837fdc8658c42776c0a8
     name: bash
     evr: 5.2.26-6.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-7.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 541502
-    checksum: sha256:3c06552ab1d70705a78107ccc980ce9043793c4bb0fd945962e023f1c6e41141
+    size: 549818
+    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
     name: brotli
-    evr: 1.1.0-7.el10_1
+    evr: 1.1.0-8.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/b/bzip2-1.0.8-25.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 853873
@@ -4976,12 +4976,12 @@ arches:
     checksum: sha256:14808cf2224c23002ecb0d3df48a474916d37230ba9b14dcc9d20f434eb351a9
     name: openldap
     evr: 2.6.10-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.8-1.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.8-2.el10_2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 53473629
-    checksum: sha256:923f7531487cc871d6da95405a9da9e783dcff2640dd8e40817ae14ef7bc722e
+    size: 53479113
+    checksum: sha256:5e45c3d946827a032ca733f792fb643ff883983e628c10e0204adfca989ec92b
     name: openssl
-    evr: 1:3.5.8-1.el10_2
+    evr: 1:3.5.8-2.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-11.el10_2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 28691851
