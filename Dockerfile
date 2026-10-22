@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9-minimal:latest
+FROM registry.redhat.io/ubi9/ubi-minimal-pqc:latest
 
 RUN microdnf update -y
 
