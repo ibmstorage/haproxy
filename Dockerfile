@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi9-minimal:latest
 RUN microdnf update -y
 
 # If you edit this version number, edit it here *and* the LABEL below:
-RUN microdnf install -y haproxy && rpm -q haproxy-2.4.22
+RUN microdnf install -y haproxy && rpm -q haproxy-2.8.14
 
 # Creating haproxy user and group
 RUN microdnf install -y shadow-utils
@@ -16,7 +16,7 @@ RUN if [ $(uname --hardware-platform) == "linux/amd64" ]; then microdnf install 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="rhceph-haproxy-container"
 LABEL name=rhceph/rhceph-haproxy-rhel9
-LABEL version=2.4.22
+LABEL version=2.8.14
 LABEL description="HAProxy container"
 LABEL summary="Provides HAproxy container."
 LABEL io.k8s.display-name="HAProxy container"
