@@ -21,6 +21,9 @@ LABEL io.k8s.description="HAProxy container"
 LABEL io.openshift.tags="2.2.19"
 LABEL cpe=cpe:/a:redhat:ceph_storage:5.3::el8
 
+# Z-stream indicator
+LABEL Z-VERSION="5.3z9"
+
 STOPSIGNAL SIGUSR1
 
 RUN mkdir /licenses
